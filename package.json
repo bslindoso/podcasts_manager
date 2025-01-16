@@ -1,0 +1,25 @@
+{
+  "name": "podcasts_manager",
+  "version": "1.0.0",
+  "description": "Aplicativo que gerencia podcasts, separando episódios por categoria",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "module",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx src/server.ts",
+    "start:watch": "tsx watch src/server.ts",
+    "start:dist": "npm run dist && node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
