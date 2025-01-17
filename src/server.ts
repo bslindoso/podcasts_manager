@@ -1,12 +1,16 @@
 import * as http from 'http';
+import { getListEpisodes } from './controllers/podcasts-controller'
 
-// Importa o módulo HTTP nativo do Node.js para criar o servidor
+// Inicia o servidor HTTP na porta definida no ambiente e exibe mensagem no console quando estiver pronto
 const server = http.createServer(
-  (request: http.IncomingMessage, response: http.ServerResponse) => {
-
+  async (req: http.IncomingMessage, res: http.ServerResponse) => {
+    if (req.method === "GET") {
+      await getListEpisodes(req, res);
+    }
   }
 );
 
-// Inicia o servidor HTTP na porta 3333 e exibe mensagem no console quando estiver pronto
-server.listen(3333, () => console.log("Servidor iniciado na porta 3333")
+const port = process.env.PORT
+
+server.listen(port, () => console.log("Servidor iniciado na porta " + port)
 );

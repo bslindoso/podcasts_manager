@@ -1,22 +1,32 @@
 # Podcast Manager
 
 ### Descrição
+
 Um app ao estilo Netflix, onde ue possa centralizar diferentes episódios de podcasts separados por categoria
 
 ### Domínio da aplicação
+
 Podcasts feitos em vídeo
 
 ### Features
+
 - Listar os episódios em sessões de categorias
   - [saúde, fitness, mentalidade, humor, ...]
 - Filtrar episódios por nome de podcast
 
 ## Como
-#### Feature
-  Listar os episódios em sessões de categorias
-### Como vou implementar
-  Vou retornar em uma API Rest (JSON) o nome do podcast, nome do episódio, imagem de capa, link, categoria
 
+#### Feature
+  
+Listar os episódios em sessões de categorias
+
+### Como vou implementar
+  
+Vou retornar em uma API Rest (JSON) o nome do podcast, nome do episódio, imagem de capa, link, categoria
+
+GET: retorna lista de episódios
+
+response:
 ```js
 [
   {
