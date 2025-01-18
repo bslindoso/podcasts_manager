@@ -21,7 +21,8 @@ export const getFilterEpisodes = async (
   req: IncomingMessage,
   res: ServerResponse
 ) => {
-  const content = await serviceFilterEpisodes("Flow")
+
+  const content = await serviceFilterEpisodes(req.url)
 
   // salva no header do response
   res.writeHead(200, { 'Content-Type': 'application/json' });

@@ -6,8 +6,11 @@ const server = http.createServer(
   async (req: http.IncomingMessage, res: http.ServerResponse) => {
 
     // query string
-    // http://localhost:3333/api/episode?p=flow
+    
+    // Divide a URL em duas partes usando "?" como separador: baseUrl contém o caminho base e queryString contém os parâmetros
+    // Exemplo: para "http://localhost:3333/api/episode?p=flow" -> baseUrl = "/api/episode" e queryString = "p=flow"
     const [baseUrl, queryString] = req.url?.split("?") ?? ["", ""];
+
 
     console.log(baseUrl, queryString)
 

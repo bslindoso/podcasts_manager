@@ -1,6 +1,6 @@
 [
   {
-    "podcastName": "Flow",
+    "podcastName": "flow",
     "episode": "CBUM - Flow #319",
     "videoId": "5DaLlqP-8uI",
     "cover": "https://i.ytimg.com/vi/5DaLlqP-8uI/maxresdefault.jpg",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "podcastName": "Flow",
+    "podcastName": "flow",
     "episode": "RUBENS BARRICHELLO - Flow #339",
     "videoId": "4KDGTdiOV4I",
     "cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
@@ -24,7 +24,18 @@
     ]
   },
   {
-    "podcastName": "Inteligência Ltda.",
+    "podcastName": "inteligência ltda",
+    "episode": "BRUNO LINDOSO #999",
+    "videoId": "4KDGTdiOV4I",
+    "cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
+    "link": "hhttps://www.youtube.com/watch?v=4KDGTdiOV4I",
+    "category": [
+      "programacao",
+      "javascript"
+    ]
+  },
+  {
+    "podcastName": "venus",
     "episode": "BRUNO LINDOSO #999",
     "videoId": "4KDGTdiOV4I",
     "cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
