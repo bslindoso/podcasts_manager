@@ -24,7 +24,7 @@ A aplicação fornece uma API Rest que retorna os episódios, organizados por ca
 - Categoria(s)
 
 #### Endpoint
-`GET /api/lista`
+`GET /api/list`
 
 ##### Response Example:
 ```json
