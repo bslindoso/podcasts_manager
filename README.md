@@ -133,7 +133,7 @@ $ npm install
 
 ### Rodar o Servidor
 ```bash
-$ npm start
+$ npm run start:dev
 ```
 O servidor ficará disponível em `http://localhost:3333`.
 
