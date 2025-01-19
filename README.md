@@ -123,7 +123,7 @@ PODCASTS_MANAGER
 ### Instalação
 1. Clone o repositório:
 ```bash
-$ git clone <URL_DO_REPOSITORIO>
+$ git clone https://github.com/bslindoso/podcasts_manager.git
 ```
 
 2. Instale as dependências:
