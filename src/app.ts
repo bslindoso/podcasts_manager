@@ -11,10 +11,7 @@ export const app = async (
 
   // Divide a URL em duas partes usando "?" como separador: baseUrl contém o caminho base e queryString contém os parâmetros
   // Exemplo: para "http://localhost:3333/api/episode?p=flow" -> baseUrl = "/api/episode" e queryString = "p=flow"
-  const [baseUrl, queryString] = request.url?.split("?") ?? ["", ""];
-
-
-  console.log(baseUrl, queryString)
+  const baseUrl = request.url?.split("?")[0] ?? [""];
 
   // listar podcasts
   if (request.method === HttpMethod.GET && baseUrl === Routes.LIST) {

@@ -20,21 +20,75 @@
     ]
   },
   {
-    "podcastName": "inteligência ltda",
-    "episode": "BRUNO LINDOSO #999",
-    "videoId": "4KDGTdiOV4I",
+    "podcastName": "venus",
+    "episode": "Dra. ANA BEATRIZ BARBOSA (Especial Mês das Mulheres) - Venus Podcast #236",
+    "videoId": "NOsZr-Pz6yg",
     "category": [
-      "programacao",
-      "javascript"
+      "saúde",
+      "psicologia"
     ]
   },
   {
     "podcastName": "venus",
-    "episode": "BRUNO LINDOSO #999",
-    "videoId": "4KDGTdiOV4I",
+    "episode": "RENATO ALBANI, VICTOR SARRO E CAMBOTA - Venus Podcast #398",
+    "videoId": "F9WzuTUUBkg",
     "category": [
-      "programacao",
-      "javascript"
+      "humor",
+      "stand-up comedy"
+    ]
+  },
+  {
+    "podcastName": "venus",
+    "episode": "PAULO VIEIRA - Venus Podcast #104",
+    "videoId": "gfw-1LjlkSQ",
+    "category": [
+      "humor",
+      "stand-up comedy"
+    ]
+  },
+  {
+    "podcastName": "inteligência ltda",
+    "episode": "A TECNOLOGIA DOS PRÓXIMOS MIL ANOS - Inteligência Ltda. Podcast #1066",
+    "videoId": "0kSxTIstFM0",
+    "category": [
+      "tecnologia",
+      "futuro"
+    ]
+  },
+  {
+    "podcastName": "inteligência ltda",
+    "episode": "RODRIGO SILVA ARQUEOLOGIA - Inteligência Ltda. Podcast #161",
+    "videoId": "OxgzVEPr7dE",
+    "category": [
+      "religião",
+      "arqueologia"
+    ]
+  },
+  {
+    "podcastName": "inteligência ltda",
+    "episode": "RODRIGO SILVA - Inteligência Ltda. Podcast #1000",
+    "videoId": "ZM4y_gNOljU",
+    "category": [
+      "religião",
+      "arqueologia"
+    ]
+  },
+  {
+    "podcastName": "venus",
+    "episode": "WHINDERSSON NUNES - Venus Podcast #525",
+    "videoId": "qJb2534YRF0",
+    "category": [
+      "humor",
+      "stand-up comedy"
+    ]
+  },
+  {
+    "podcastName": "inteligência ltda",
+    "episode": "PODER E DESIGUALDADE, O BRASIL NO SÉCULO XXI - Inteligência Ltda. Podcast #1371",
+    "videoId": "qJb2534YRF0",
+    "category": [
+      "sociedade",
+      "economia"
     ]
   }
 ]
